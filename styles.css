@@ -1,1 +1,12 @@
 /* your code */
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th{
+	color: white;
+	background-color: #96D4D4;
+}
+tr:nth-child(odd){
+	background-color: lightgray;
+}
